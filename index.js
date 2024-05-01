@@ -62,8 +62,6 @@ app.get ('/tabuada', mostrarTabuada);
 
 
 
-
-//()=>{} função anonima conhecida como arrow function
 app.listen(porta, host, ()=>{
     console.log("O servidor está executando em http://"+host+':'+porta);
 } );
